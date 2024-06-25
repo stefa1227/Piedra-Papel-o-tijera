@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:rgb(255, 0, 187) ;
+    font-family: 'Great Vibes', cursive;
+}
+
+.title{
+    border-bottom: 2px solid black;  
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 16px;
+
+}
+
+
+.buttonOne{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+    transition: transform 0.3s ease;
+}
+
+.Result{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    border: solid black;
+    background-color: rgb(234, 0, 191);
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container1>.img {
+    cursor: pointer;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color:rgb(255, 0, 187);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.containerBloks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}

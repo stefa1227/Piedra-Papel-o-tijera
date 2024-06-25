@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>rock Paper Scissors</title>
+</head>
+<body>
+
+    <section class="sectionOne">
+        <div class="card1">
+            <h1 class="title">Rock Paper Scissors</h1>
+           <button class="buttonOne" id="button">Reload</button>
+        </div>
+    </section>
+    <div class="containerBloks">
+        <div class="card3">
+            <h3>User</h3>
+            <p id="userScore">0</p>
+            <div class="container1" >
+                <div class="img" id="buttonRock"><img src="img/rock.png" alt="" height="60px" width="60px"></div>  
+                <div class="img" id="buttonPapers"><img src="img/papers.png" alt="" height="60px" width="60px"></div>
+                <div class="img" id="buttomScissors"><img src="img/scissors.png" alt="" height="60px" width="60px"></div>  
+            </div>
+            <div class="choice">
+                <h2>Here is your choice!</h2>
+                <img class="img" id="user" src="img/rock.png" alt="">
+            </div>
+        </div>
+
+        <div class="Result">
+            <h2 id="Result">Game Result</h2>
+        </div>
+        
+        <div class="card3">
+            <h3>CPU</h3>
+            <p id="machineScore">0</p>
+            <div class="container2">
+                <div class="img"><img src="img/rock.png" alt="" height="60px" width="60px"></div>
+                <div class="img"><img src="img/papers.png" alt="" height="60px" width="60px"></div>
+                <div class="img"><img src="img/scissors.png" alt="" height="60px" width="60px"></div>
+            </div>
+            <div class="choice">
+                <h2>¡Choice of machine!</h2>
+                <img  class="img" id="machine" src="img/rock.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
